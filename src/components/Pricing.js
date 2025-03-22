@@ -4,7 +4,7 @@ import { CheckCircle } from 'lucide-react';
 export default function Pricing({ handleonchange }) {
   return (
     <div>
-           <section id="pricing" className="py-20 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 h-screen">
+           <section id="pricing" className="py-20 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white">Simple, Transparent Pricing</h2>
