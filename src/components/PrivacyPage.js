@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
-const TermsPage = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+const PrivacyPage = () => {
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
-  return (
-    <div className="min-h-screen bg-gray-950 text-white">
-      {/* Navigation */}
-      <nav className="border-b border-gray-800 backdrop-blur-lg bg-gray-950/80 sticky top-0 z-50">
+    return (
+      <div className="min-h-screen bg-gray-950 text-white">
+        {/* Navigation */}
+        <nav className="border-b border-gray-800 backdrop-blur-lg bg-gray-950/80 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -78,28 +78,24 @@ const TermsPage = () => {
         </div>
       )}
     </nav>
-
-      {/* Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-3xl font-bold mb-8">Terms and Conditions</h1>
-        <div className="prose prose-invert max-w-none">
-          <p className="text-gray-400">Terms and conditions content will go here.</p>
-          <p className="text-gray-400">This page is currently a placeholder and will be populated with the appropriate legal information.</p>
+  
+        {/* Content */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <h1 className="text-3xl font-bold mb-8">Privacy Policy</h1>
+          <div className="prose prose-invert max-w-none">
+            <p className="text-gray-400">Privacy policy content will go here.</p>
+            <p className="text-gray-400">This page is currently a placeholder and will be populated with the appropriate legal information.</p>
+          </div>
         </div>
+  
+        {/* Footer */}
+        <footer className="bg-gray-950 border-t border-gray-800 py-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
+            <p>&copy; {new Date().getFullYear()} RebuildCV. All rights reserved.</p>
+          </div>
+        </footer>
       </div>
+    );
+  };
 
-      {/* Footer */}
-      <footer className="bg-gray-950 border-t border-gray-800 py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} RebuildCV. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
-  );
-};
-  
-  // Privacy Policy Page
-  
-  
-  export { TermsPage };
-  
+  export { PrivacyPage };
