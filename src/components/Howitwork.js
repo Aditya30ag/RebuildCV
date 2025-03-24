@@ -8,10 +8,10 @@ export default function Howitwork() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-purple-900/10 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white">
               How RebuildCV Works
             </h2>
-            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
               Three simple steps to create your perfect, job-winning resume
             </p>
           </div>

@@ -7,8 +7,8 @@ export default function Testimonials() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-900/10 to-transparent"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">What Our Users Say</h2>
-          <p className="text-xl max-w-3xl mx-auto text-black">Join thousands of job seekers who've landed their dream jobs</p>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white">What Our Users Say</h2>
+          <p className="text-xl max-w-3xl mx-auto text-white">Join thousands of job seekers who've landed their dream jobs</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
